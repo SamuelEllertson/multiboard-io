@@ -1,6 +1,6 @@
 # Multiboard-io
 
-This webapp was originally made for me and my friends to play the boardgame "Sorry!" but I kept adding to it until it became an interactive, real time platform to play any boardgame that met certain requirements. 
+This webapp was a weekend project originally made for me and my friends to play the boardgame "Sorry!" but I kept adding to it until it became an interactive, real-time platform to play any boardgame that met certain requirements. 
 
 Multiboard is currently hosted at http://multiboard-io.herokuapp.com/ and features the games Sorry, ludo, and an original game.
 
