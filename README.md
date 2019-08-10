@@ -6,6 +6,8 @@ Multiboard is currently hosted at http://multiboard-io.herokuapp.com/ and featur
 
 There is a full chat and command system, automatic lobby creation, and interactive board elements such as cards, dice, and real-time moveable pieces.
 
+The platform was designed so that it is relatively simple to add new games.
+
 Sorry!:
 ![Board game](https://i.imgur.com/OdJMANn.png)
 
