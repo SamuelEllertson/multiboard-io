@@ -7,10 +7,10 @@ Multiboard is currently hosted at http://multiboard-io.herokuapp.com/ and featur
 There is a full chat and command system, automatic lobby creation, and interactive board elements such as cards, dice, and real-time moveable pieces.
 
 Sorry!:
-![](https://i.imgur.com/lRVNaYa.png)
+![Board game](https://i.imgur.com/OdJMANn.png)
 
 Ludo:
-![](https://i.imgur.com/Ug7vedd.png)
+![Board game](https://i.imgur.com/u8fDXoI.png)
 
 The Great Fucklord:
-![](https://i.imgur.com/TTY2JUU.png)
+![Board game](https://i.imgur.com/wB360c1.png)
