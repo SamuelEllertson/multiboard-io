@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <base href="/" />
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="https://cdn.rawgit.com/konvajs/konva/1.7.6/konva.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--<script src="client/js/konva_test.js"></script>-->
+    <script src="client/js/classes.js"></script>
+    <script src="client/js/main.js"></script>
+    <script src="client/js/util.js"></script>
+    <script src="shared/gameInfo.js"></script>
+    <style>
+    #ctx {
+        position: absolute;
+        left: 25vw;
+        width: 50vw!important;
+        height: 50vw!important;
+        max-width: 95vmin;
+        max-height: 95vmin;
+        padding: 0px;
+        margin: auto;
+        display: inline-block;
+        user-select: none;
+    }
+    #ctx > div {
+        width: 100%!important;
+        height: 100%!important;
+        padding: 0px;
+        margin: 0px;
+        display: block;
+        user-select: none;
+    }
+    #ctx > div > canvas{
+        width: 100%!important;
+        height: 100%!important;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+        user-select: none;
+        background: url("client/img/background.png");
+        background-size: cover!important;
+        background-repeat: no-repeat!important;
+       
+    }
+    #cardCanvas {
+        position: absolute;
+        left: 75vw;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        user-select: none;
+        border: 1px solid black;
+        display: none;
+    }
+    #chatDiv {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 95vh;
+        width: 24vw;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        user-select: none;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        list-style-type: none;
+        padding: 1em;
+        word-wrap: break-word;
+    }
+    #chatInput {
+        width: 90%;
+        height: 30px;
+        min-height: 30px;
+        max-height: 40px;
+        margin: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        align-self: center;
+    }
+    .chatMessage {
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-size: 150%;
+    }
+    </style>
+    <title>MultiBoard.io</title>
+</head>
+<body>
+    <div id="chatDiv">
+        <ul id="chatList"></ul>
+        <input type="text" id="chatInput" maxlength="55"></input>
+    </div>
+    <div id="ctx"></div>
+    <canvas id="cardCanvas" width="200" height="300"></canvas>
+</body>
+</html>

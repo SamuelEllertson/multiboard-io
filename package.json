@@ -1,0 +1,25 @@
+{
+  "name": "multiboard_io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "aliv --pathIndex client",
+    "liveReload": "browser-sync start --proxy localhost:3000 --port 4000 --serveStatic . --files .",
+    "nodemon": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ImTheeFlash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "konva": "^1.7.6",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "aliv": "^1.9.1",
+    "browser-sync": "^2.18.13",
+    "nodemon": "^1.12.1"
+  }
+}
