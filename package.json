@@ -15,7 +15,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "konva": "^1.7.6",
-    "socket.io": "^2.0.4"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "aliv": "^1.9.1",
